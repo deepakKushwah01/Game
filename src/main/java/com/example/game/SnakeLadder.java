@@ -16,7 +16,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class SnakeLadder extends  Application {
-     public static final int tileSize=40,widtvbh=10, height=10 ;
+     public static final int tileSize=40,width=10, height=10 ;
      public  static final int buttonLine=tileSize*height+50, infoLine=buttonLine-30;
      private static Dice dice=new Dice();
      private Player playerOne, playerTwo;
